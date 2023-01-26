@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRSHAD FITNESS</title>
+
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Balthazar&family=Poppins:ital,wght@1,100&family=Signika+Negative:wght@300;400&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+<!-- shortcut of this is ***** link:css -->
+<link rel="stylesheet" href="CSS/style.css">
+
+<style>
+    /* css reset ka matlab margin aur padding ko change krna hota hai  */
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+
+        background-image: url('img/pg.jpg');
+        width: 1270px;
+        height: 620px;
+        background-repeat: no-repeat;
+        font-family: Balthazar, serif;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        color: white;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        font-size: 21px;
+    }
+
+    .mid {
+        color: white;
+        /* border: 2px solid red; */
+        display: inline-block;
+        display: block;
+        width: 45%;
+        margin: 10px auto;
+        padding: 0px;
+
+
+    }
+
+    .right {
+        /* border: 2px solid red; */
+        color: white;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 5px;
+        font-size: 25px;
+        margin: 0px auto;
+
+    }
+
+    a:hover,
+    active {
+        text-decoration: underline;
+        color: brown;
+    }
+
+
+
+    a {
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+    .left img {
+        width: 110px;
+    }
+
+    .btn {
+        margin: 0px 3px;
+        background-color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+        cursor: pointer;
+
+
+    }
+
+    .btn:hover {
+        background-color: darkgreen;
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        margin: 170px 34px;
+        padding: 31px 32px;
+        width: 43%;
+        border-radius: 4px;
+        color: aqua;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-family: Balthazar, serif;
+
+    }
+    .container h1{
+text-align: center;
+
+    }
+.container button{         
+                                   /* kisi bhi elemnts ko center krne ke liye display- center ,,,text align center ,,, margin auto  ka use kerte hai  */
+    display: block;
+text-align: center;
+margin: auto;
+width: 50%;
+
+}
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Irshad Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- mid box navigation -->
+            <ul class="navbar">
+
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness calculators</a></li>
+                <li><a href="/img/pg.jpg">Contact us</a></li>
+            
+
+            </ul>
+
+
+
+
+
+
+        </div>
+        <div class="right">
+            <button class="btn" >Call us now </button>
+            <button class="btn">Email us</button>
+
+        </div>
+
+
+
+
+
+
+    </header>
+    <div class="container">
+        <h1>join the best gym in delhi </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name=" " placeholder="ENTER YOUR NAME ">
+
+
+
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="ENTER YOUR AGE ">
+
+
+
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="ENTER YOUR GENDER ">
+
+
+                <button class="btn">submit</button>
+                
+            </div>
+            
+            
+            
+        </div>
+        
+
+
+
+    </form>
+
+    </div>
+
+
+</body>
+
+</html>
